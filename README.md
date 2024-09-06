@@ -4,6 +4,6 @@ Divi is a WordPress theme. Whenever you need to make modifications to any WordPr
 
 # How to use Divi Child Theme
 * Download the zip file
-* Goto Appeareance>Themes>Upload Theme
+* Goto Appearance>Themes>Upload Theme
 * Upload the child theme file and install
 * You are all set and ready to use the theme file

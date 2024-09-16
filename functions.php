@@ -1,5 +1,5 @@
 <?php
-function dt_enqueue_styles() {
+function dt_enqueue_styles(){
     $parenthandle = 'divi-style'; 
     $theme = wp_get_theme();
     wp_enqueue_style( $parenthandle, get_template_directory_uri() . '/style.css', 
@@ -13,8 +13,7 @@ function dt_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'dt_enqueue_styles' );
 
-function custom_enqueue_styles()
-{
+function custom_enqueue_styles(){
  wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/assets/css/custom-style.css', time(), true);
 wp_enqueue_script('custom-custom-script', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), time());
 }
